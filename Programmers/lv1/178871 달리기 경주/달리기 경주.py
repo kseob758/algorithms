@@ -6,3 +6,5 @@ def solution(players, callings):
         race[players[rank-1]] += 1
         players[rank], players[rank-1] = players[rank-1], players[rank]  # 순서 변경
     return players
+
+# 딕셔너리 없이 리스트 + index메소드 쓰면 시간 초과
