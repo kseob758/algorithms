@@ -9,6 +9,7 @@ def solution(park, routes):
     for route in routes:
         xx = x
         yy = y
+        # 이동 - 맵을 벗어나거나 이동할 방향에 장애물이 있으면 무시
         for step in range(int(route[2])):
             if route[0] == 'E' and xx != len(park[0])-1 and park[yy][xx+1] != 'X':
                 xx += 1
