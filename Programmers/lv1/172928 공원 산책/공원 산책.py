@@ -25,6 +25,6 @@ def solution(park, routes):
             elif route[0] == 'N' and yy != 0 and park[yy-1][xx] != 'X':
                 yy -= 1
                 if step == int(route[2])-1:
-                    y = yy
+                    y = yy  # step만큼 모두 움직였으면 위치 재지정
 
-    return [y, x]
+    return [y, x]  # x, y축과 행, 열 개념 유의
