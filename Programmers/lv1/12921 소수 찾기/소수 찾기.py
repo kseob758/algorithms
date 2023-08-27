@@ -6,5 +6,4 @@ def solution(n):
             for j in range(i*2, n+1, i):
                 prime[j] = 0
                 
-                
     return prime.count(1)-2
