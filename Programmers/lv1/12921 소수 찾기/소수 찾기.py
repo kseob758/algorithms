@@ -1,3 +1,5 @@
+# 에라토스테네스의 체
+
 def solution(n):
     prime = [1] * (n+1)  # index 0~n
     
