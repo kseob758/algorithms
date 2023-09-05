@@ -1,3 +1,4 @@
+# timeout code : O(n^2)
 def solution(numbers):
     answer = []
     for i, num in enumerate(numbers):
